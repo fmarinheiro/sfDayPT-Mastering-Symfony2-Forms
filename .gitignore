@@ -14,5 +14,13 @@
 /composer.phar
 /*.zip
 
+#eclipse
+.project
+.buildpath
+.settings/
+
+# php backup files
+*.php~
+
 # Don't keep the lock file to prevent problems with ICU
 /composer.lock
